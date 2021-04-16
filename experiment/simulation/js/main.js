@@ -8,13 +8,13 @@ let arrayRemove = (arr, value) => {
   });
 };
 
-ids = ["long", "lcontainer"];
+let ids = ["long", "lcontainer"];
 
 let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
   let flags = [true, true];
   while (true) {
-    animation_speed = document.getElementById("water-flow").value;
+    let animation_speed = document.getElementById("water-flow").value;
     animation_speed = animation_speed * 0.0001;
     animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
     if (curPosition > finalPosition) break;
@@ -36,15 +36,15 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   }
 };
 
-let startAnimation = async () => {
+let animation = async () => {
   let flags = [true];
   for (let i = 0; i < ids.length; i++) {
-    id = ids[i];
+    let id = ids[i];
     let path = document.getElementById(id);
     let finalPosition = 1;
     let curPosition = 0;
     while (true) {
-      animation_speed = document.getElementById("water-flow").value;
+      let animation_speed = document.getElementById("water-flow").value;
       animation_speed = animation_speed * 0.0001;
       animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
       if (curPosition > finalPosition) break;
@@ -72,12 +72,12 @@ let resetEverything = () => {
     path.setAttribute("offset", 0);
   });
 };
-disablestart = false;
-let startAn = async () => {
+
+let startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
-  await startAnimation();
+  await animation();
   document.getElementById("startbutton").disabled = false;
   document.getElementById("resetbutton").disabled = false;
 };
