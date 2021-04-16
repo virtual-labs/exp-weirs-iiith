@@ -1,19 +1,22 @@
 [
   {
-    "question": "1.This is a sample question:",
+    "question": "1. The discharge of broad crested weir is maximum if the head of water on the downstream side of weir as compared to the head on the upstream side of is:",
     "answers": {
-      "a": "This is a sample answer A",
-      "b": "This is a sample answer B"
+      "a": "two-third",
+      "b": "one-third",
+      "c": "one-half",
+      "d": "three-fourth"
     },
     "correctAnswer": "a"
   },
   {
-    "question": "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",
+    "question": "2. Head loss will be small in case of:",
     "answers": {
-      "a": "<img src='images/1b.png'>",
-      "b": "<img src='images/1a.png'>",
-      "c": "<img src='images/1c.PNG'>"
+      "a": "Ogee shaped",
+      "b": "Broad crested",
+      "c": "Sharp crested",
+      "d": "Narrow crested"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "b"
   }
 ]
