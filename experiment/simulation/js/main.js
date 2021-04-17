@@ -1,3 +1,4 @@
+"use strict";
 let sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
@@ -19,13 +20,13 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
     animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
     if (curPosition > finalPosition) break;
     curPosition += animation_speed;
-    if (id == "left-curve") {
+    if (id === "left-curve") {
       if (curPosition > 0.99 && flags[0]) {
         asyncMove("right-curve");
         flags[0] = false;
       }
     }
-    if (id == "right-curve") {
+    if (id === "right-curve") {
       if (curPosition > 0.99 && flags[1]) {
         asyncMove("rcontainer");
         flags[1] = false;
@@ -49,7 +50,7 @@ let animation = async () => {
       animation_speed = animation_speed == 0 ? 0.0001 : animation_speed;
       if (curPosition > finalPosition) break;
       curPosition += animation_speed;
-      if (id == "lcontainer") {
+      if (id === "lcontainer") {
         if (curPosition >= 0.45 && flags[0]) {
           asyncMove("left-curve");
           flags[0] = false;
@@ -62,7 +63,7 @@ let animation = async () => {
 };
 
 let resetEverything = () => {
-  tube_ids = ["left-curve", "right-curve", "rcontainer"];
+  let tube_ids = ["left-curve", "right-curve", "rcontainer"];
   tube_ids.forEach((element) => {
     let path = document.getElementById(element);
     path.setAttribute("offset", 0);
