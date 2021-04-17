@@ -1,22 +1,20 @@
 [
   {
-    "question": "1. The discharge of broad crested weir is maximum if the head of water on the downstream side of weir as compared to the head on the upstream side of is:",
+    "question": "1. Weirs are normally used to calculate:",
     "answers": {
-      "a": "two-third",
-      "b": "one-third",
-      "c": "one-half",
-      "d": "three-fourth"
+      "a": "Velocity",
+      "b": "Volume",
+      "c": "Pressure",
+      "d": "Discharge or Flow rate"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "d"
   },
   {
-    "question": "2. Head loss will be small in case of:",
+    "question": "2. Weirs can be used to power water wheels and power sawmills.",
     "answers": {
-      "a": "Ogee shaped",
-      "b": "Broad crested",
-      "c": "Sharp crested",
-      "d": "Narrow crested"
+      "a": "True",
+      "b": "False"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "a"
   }
 ]
