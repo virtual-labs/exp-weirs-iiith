@@ -1,0 +1,22 @@
+[
+  {
+    "question": "1. The discharge of broad crested weir is maximum if the head of water on the downstream side of weir as compared to the head on the upstream side of is:",
+    "answers": {
+      "a": "two-third",
+      "b": "one-third",
+      "c": "one-half",
+      "d": "three-fourth"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "2. Head loss will be small in case of:",
+    "answers": {
+      "a": "Ogee shaped",
+      "b": "Broad crested",
+      "c": "Sharp crested",
+      "d": "Narrow crested"
+    },
+    "correctAnswer": "b"
+  }
+]
