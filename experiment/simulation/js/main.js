@@ -1,17 +1,17 @@
 "use strict";
-let sleep = (ms) => {
+const sleep = (ms) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
 
-let arrayRemove = (arr, value) => {
+const arrayRemove = (arr, value) => {
   return arr.filter(function (ele) {
     return ele != value;
   });
 };
 
-let ids = ["long", "lcontainer"];
+const ids = ["long", "lcontainer"];
 
-let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
+const asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   let path = document.getElementById(id);
   let flags = [true, true];
   while (true) {
@@ -37,7 +37,7 @@ let asyncMove = async (id, curPosition = 0, finalPosition = 1) => {
   }
 };
 
-let animation = async () => {
+const animation = async () => {
   let flags = [true];
   for (let i = 0; i < ids.length; i++) {
     let id = ids[i];
@@ -62,8 +62,8 @@ let animation = async () => {
   }
 };
 
-let resetEverything = () => {
-  let tube_ids = ["left-curve", "right-curve", "rcontainer"];
+const resetEverything = () => {
+  const tube_ids = ["left-curve", "right-curve", "rcontainer"];
   tube_ids.forEach((element) => {
     let path = document.getElementById(element);
     path.setAttribute("offset", 0);
@@ -74,7 +74,7 @@ let resetEverything = () => {
   });
 };
 
-let startAnimation = async () => {
+const startAnimation = async () => {
   resetEverything();
   document.getElementById("startbutton").disabled = true;
   document.getElementById("resetbutton").disabled = true;
