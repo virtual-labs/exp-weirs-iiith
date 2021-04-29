@@ -8,4 +8,4 @@ Procedure for the experiment is as follows:
 6. Click/Tap on the **Reset** button to restart the expeirment afresh, i.e., with empty apparatus.
 
 
-[Read More](5.Weirs.pdf)
+[Read More](docs/5.Weirs.pdf)
