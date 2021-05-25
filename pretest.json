@@ -1,0 +1,20 @@
+[
+  {
+    "question": "1. Weirs are normally used to calculate:",
+    "answers": {
+      "a": "Velocity",
+      "b": "Volume",
+      "c": "Pressure",
+      "d": "Discharge or Flow rate"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "2. Weirs can be used to power water wheels and power sawmills.",
+    "answers": {
+      "a": "True",
+      "b": "False"
+    },
+    "correctAnswer": "a"
+  }
+]
