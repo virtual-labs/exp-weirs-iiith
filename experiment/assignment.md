@@ -14,4 +14,4 @@ Q7. Would you expect the length of the weir crest to affect the discharge coeffi
 
 Q8. What is the effect of drowning the weir (increasing the downstream depth)? 
 
-[Read More](5.Weirs.pdf)
+To read about the Assignment of the experiment click [here](5.Weirs.pdf)
