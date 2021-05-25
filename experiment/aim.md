@@ -2,4 +2,4 @@ Weirs are concrete or masonry structures used to raise the upstream water level 
 
 To determine the coefficient of discharge (Cod) of a Broad crested weir. 
 
-[Read more about the theory of the experiment here](docs/5.Weirs.pdf)
+To read about the Aim of the experiment click [here](docs/5.Weirs.pdf)
