@@ -1,3 +1,4 @@
- <center><img src="images/image2.png"> <br></p> </center>
+ <img src="images/image2.png">  
 
-[Read More](5.Weirs.pdf)
+To read about the Observations of the experiment click [here](5.Weirs.pdf)
+
