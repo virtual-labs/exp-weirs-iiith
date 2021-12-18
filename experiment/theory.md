@@ -12,3 +12,4 @@ theretical discharge, Q<sub>t</sub> = (1.705)LH<sup>2/2</sup> in m3/sec <br>
 
 
 To read about the Theory of the experiment click [here](docs/5.Weirs.pdf)
+
