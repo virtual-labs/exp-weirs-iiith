@@ -1,20 +1,158 @@
-[
-  {
-    "question": "1. Weirs are normally used to calculate:",
-    "answers": {
-      "a": "Velocity",
-      "b": "Volume",
-      "c": "Pressure",
-      "d": "Discharge or Flow rate"
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A weir is primarily used to measure:",
+      "answers": {
+        "a": "Pressure",
+        "b": "Velocity",
+        "c": "Discharge or flow rate",
+        "d": "Density"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Pressure is measured using pressure measuring devices.",
+        "b": "Incorrect. Velocity can be determined indirectly, but the primary purpose of a weir is discharge measurement.",
+        "c": "Correct. Weirs are commonly used to measure discharge in open channels.",
+        "d": "Incorrect. Density is a fluid property and is not measured using weirs."
+      },
+      "difficulty": "beginner"
     },
-    "correctAnswer": "d"
-  },
-  {
-    "question": "2. Weirs can be used to power water wheels and power sawmills.",
-    "answers": {
-      "a": "True",
-      "b": "False"
+    {
+      "question": "2. A weir is generally installed across:",
+      "answers": {
+        "a": "A closed pipe",
+        "b": "An open channel",
+        "c": "A pressure vessel",
+        "d": "A pump casing"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Weirs are not used in closed conduits.",
+        "b": "Correct. A weir is a barrier constructed across an open channel to measure discharge.",
+        "c": "Incorrect. Pressure vessels are unrelated to weir applications.",
+        "d": "Incorrect. Pump casings are not locations for weirs."
+      },
+      "difficulty": "beginner"
     },
-    "correctAnswer": "a"
-  }
-]
+    {
+      "question": "3. Which of the following is a commonly used type of weir?",
+      "answers": {
+        "a": "Rectangular weir",
+        "b": "Pitot weir",
+        "c": "Venturi weir",
+        "d": "Centrifugal weir"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Rectangular weirs are widely used for discharge measurement in open channels.",
+        "b": "Incorrect. Pitot tubes are velocity measuring devices and are unrelated to weirs.",
+        "c": "Incorrect. Venturimeters are flow measuring devices used in pipes.",
+        "d": "Incorrect. Centrifugal is associated with pumps, not weirs."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The head over a weir is measured from the crest of the weir to the:",
+      "answers": {
+        "a": "Bottom of the channel",
+        "b": "Downstream water surface",
+        "c": "Upstream water surface",
+        "d": "Centerline of the channel"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The bottom of the channel is not used as the reference level.",
+        "b": "Incorrect. The downstream water level is not used to define head over the weir.",
+        "c": "Correct. Head over a weir is measured as the vertical distance between the crest and the upstream water surface.",
+        "d": "Incorrect. The centerline of the channel is not used as a reference."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. Which type of weir is suitable for measuring small discharges accurately?",
+      "answers": {
+        "a": "Broad-crested weir",
+        "b": "Triangular (V-notch) weir",
+        "c": "Ogee weir",
+        "d": "Submerged weir"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Broad-crested weirs are generally used for larger flows.",
+        "b": "Correct. V-notch weirs are highly sensitive to small changes in discharge and are suitable for small flow rates.",
+        "c": "Incorrect. Ogee weirs are commonly used in dams and spillways.",
+        "d": "Incorrect. Submerged weirs are not preferred for accurate measurement of small discharges."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. A suppressed rectangular weir is one in which:",
+      "answers": {
+        "a": "The crest length is greater than the channel width",
+        "b": "The crest length is equal to the channel width",
+        "c": "The crest length is half the channel width",
+        "d": "No crest is provided"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The crest length cannot exceed the channel width.",
+        "b": "Correct. In a suppressed rectangular weir, the crest length is equal to the width of the channel.",
+        "c": "Incorrect. Such a configuration corresponds to a contracted weir.",
+        "d": "Incorrect. Every weir has a crest."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which type of weir experiences relatively smaller head losses?",
+      "answers": {
+        "a": "Sharp-crested weir",
+        "b": "Narrow-crested weir",
+        "c": "Broad-crested weir",
+        "d": "Submerged weir"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Sharp-crested weirs produce comparatively larger energy losses.",
+        "b": "Incorrect. Narrow-crested weirs are not characterized by minimum head loss.",
+        "c": "Correct. Broad-crested weirs provide smoother flow and lower head losses.",
+        "d": "Incorrect. Submerged conditions increase complexity and losses."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Ogee-shaped weirs are commonly used as:",
+      "answers": {
+        "a": "Pump impellers",
+        "b": "Dam spillways",
+        "c": "Venturimeters",
+        "d": "Orifice meters"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Pump impellers are rotating components and not weirs.",
+        "b": "Correct. Ogee-shaped weirs are widely used in spillways due to their hydraulic efficiency.",
+        "c": "Incorrect. Venturimeters are used for flow measurement in pipes.",
+        "d": "Incorrect. Orifice meters are entirely different flow measuring devices."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. For a given head, discharge over a weir depends primarily on:",
+      "answers": {
+        "a": "Atmospheric pressure",
+        "b": "Color of the fluid",
+        "c": "Temperature of surroundings",
+        "d": "Geometry of the weir"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Atmospheric pressure has negligible effect on ordinary weir flow measurements.",
+        "b": "Incorrect. Fluid color does not influence discharge.",
+        "c": "Incorrect. Surrounding temperature is not the governing factor.",
+        "d": "Correct. The shape and dimensions of the weir strongly influence the discharge characteristics."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
