@@ -1,0 +1,3 @@
+- To study the hydraulic characteristics of flow over a broad-crested weir.
+- To determine the coefficient of discharge (Cd) of the weir.
+- To compare the theoretical and actual discharge across the weir.

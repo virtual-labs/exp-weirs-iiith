@@ -1,0 +1,158 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which type of weir is most suitable for accurate measurement of small discharges?",
+      "answers": {
+        "a": "Broad-crested weir",
+        "b": "Rectangular weir",
+        "c": "Triangular (V-notch) weir",
+        "d": "Submerged weir"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Broad-crested weirs are generally used for larger flows and hydraulic structures.",
+        "b": "Incorrect. Rectangular weirs are suitable for moderate flow rates but are less sensitive to small discharges.",
+        "c": "Correct. V-notch weirs provide high sensitivity to changes in head and are ideal for measuring small discharges.",
+        "d": "Incorrect. Submerged weirs are not preferred when accurate measurement of small discharges is required."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The discharge over a rectangular weir primarily depends on:",
+      "answers": {
+        "a": "Head over the weir",
+        "b": "Atmospheric pressure",
+        "c": "Fluid color",
+        "d": "Channel roughness only"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The discharge over a weir is mainly a function of the head over the crest and the geometry of the weir.",
+        "b": "Incorrect. Atmospheric pressure has negligible influence under normal operating conditions.",
+        "c": "Incorrect. Fluid color does not affect the discharge.",
+        "d": "Incorrect. Channel roughness alone does not determine the discharge."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The crest of a sharp-crested weir is designed to:",
+      "answers": {
+        "a": "Increase turbulence intentionally",
+        "b": "Provide a clear separation of the nappe",
+        "c": "Reduce atmospheric pressure",
+        "d": "Increase fluid density"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Excessive turbulence reduces measurement accuracy.",
+        "b": "Correct. A sharp crest allows the water jet (nappe) to spring clear of the crest, improving measurement accuracy.",
+        "c": "Incorrect. Atmospheric pressure is unaffected by the crest shape.",
+        "d": "Incorrect. Fluid density is not altered by the crest geometry."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. A broad-crested weir experiences relatively small head loss because:",
+      "answers": {
+        "a": "Flow passes smoothly over a long crest",
+        "b": "The flow velocity becomes zero",
+        "c": "The pressure remains atmospheric everywhere",
+        "d": "The fluid viscosity becomes negligible"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The gradual transition over the broad crest minimizes energy losses.",
+        "b": "Incorrect. Flow velocity does not become zero over the crest.",
+        "c": "Incorrect. Pressure varies throughout the flow field.",
+        "d": "Incorrect. Fluid viscosity remains unchanged."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A rectangular weir whose crest length is smaller than the width of the channel is called a:",
+      "answers": {
+        "a": "Suppressed weir",
+        "b": "Broad-crested weir",
+        "c": "Contracted weir",
+        "d": "Submerged weir"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. In a suppressed weir, the crest length is equal to the channel width.",
+        "b": "Incorrect. Broad-crested refers to crest shape, not side contractions.",
+        "c": "Correct. A contracted weir has a crest length smaller than the channel width, causing side contractions.",
+        "d": "Incorrect. Submerged weirs are classified based on downstream water level conditions."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Ogee weirs are preferred in dam spillways mainly because they:",
+      "answers": {
+        "a": "Completely eliminate cavitation",
+        "b": "Reduce flow velocity to zero",
+        "c": "Increase fluid density",
+        "d": "Provide efficient flow with minimum energy loss"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Cavitation may still occur under unfavorable conditions.",
+        "b": "Incorrect. Water continues to flow with considerable velocity over the spillway.",
+        "c": "Incorrect. Density is a fluid property and does not increase.",
+        "d": "Correct. Ogee profiles are hydraulically efficient and minimize energy losses in spillway applications."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. The discharge over a V-notch weir varies approximately as:",
+      "answers": {
+        "a": "H",
+        "b": "H²",
+        "c": "H^(3/2)",
+        "d": "H^(5/2)"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The discharge does not vary linearly with head.",
+        "b": "Incorrect. A square relationship is not applicable to V-notch weirs.",
+        "c": "Incorrect. H^(3/2) is associated with rectangular weirs.",
+        "d": "Correct. Theoretical discharge over a V-notch weir is proportional to H^(5/2)."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Maximum discharge over a broad-crested weir occurs when the downstream head is approximately what fraction of the upstream head?",
+      "answers": {
+        "a": "One-third",
+        "b": "One-half",
+        "c": "Two-thirds",
+        "d": "Three-fourths"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. This ratio does not correspond to the condition for maximum discharge.",
+        "b": "Incorrect. Maximum discharge does not occur at this ratio.",
+        "c": "Correct. The discharge over a broad-crested weir is maximum when the downstream depth is approximately two-thirds of the upstream head.",
+        "d": "Incorrect. This ratio does not represent the condition for maximum discharge."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which assumption is commonly made while deriving theoretical discharge equations for weirs?",
+      "answers": {
+        "a": "Flow is compressible and unsteady",
+        "b": "Fluid density changes continuously",
+        "c": "Viscous losses are dominant",
+        "d": "Flow is steady and the velocity of approach is negligible"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Theoretical analysis generally assumes steady incompressible flow.",
+        "b": "Incorrect. Constant density is assumed for liquids.",
+        "c": "Incorrect. Viscous losses are accounted for indirectly through coefficients.",
+        "d": "Correct. Theoretical discharge equations are derived assuming steady flow and negligible velocity of approach."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

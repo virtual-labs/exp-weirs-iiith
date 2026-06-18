@@ -1,0 +1,1 @@
+The primary aim of this experiment is to study the flow of water over a broad-crested weir and to determine its coefficient of discharge. Weirs are commonly used for measuring and controlling the flow of water in open channels. This experiment provides practical knowledge of discharge measurement and the hydraulic behaviour of flow over weirs.

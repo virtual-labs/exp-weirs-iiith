@@ -1,0 +1,3 @@
+- Bansal, R. K. Fluid Mechanics and Hydraulic Machines.
+- Singh, Sarabjit. Experiments in Fluid Mechanics.
+- [Weir wikipedia](https://en.wikipedia.org/wiki/Weir)
